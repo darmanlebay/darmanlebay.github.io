@@ -1,0 +1,430 @@
+/* Css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background-color: black;
+}
+
+/* css login*/
+body{
+	background-color: black;
+}
+.kontak	{
+	position: absolute;
+	top: 500px;
+	left: -35px;
+}
+.kontak img{
+	width: 40px;
+	height: 40px;
+	display: block;
+}
+.kontak img:hover{
+	margin-left: 35px;
+}
+.admin h1{
+	color: white;
+	font-weight :bold;
+	font-size: 50px;
+	margin-top: 140px;
+	margin-left: 38.2%;
+}
+.login{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	border: 3px solid red;
+	top: 50%;
+	left: 50%;
+	margin-left: -225px;
+	margin-top: -100px;
+	border-radius: 10px;
+}
+/* css login*/
+.header{
+	border: 1px solid red;
+	width: 1300px;
+	height: 300px;
+	margin-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+}
+.navigasi{
+	border: 1px solid red;
+	width: 1280px;
+	height: 40px;
+	margin-left: 35px;
+	margin-bottom: 5px;
+}
+.navigasi ul{
+	
+}
+.navigasi ul li{
+	display: inline-block;
+	margin-top: 10px;
+}
+.navigasi ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+	text-decoration: none;
+}
+.navigasi ul li a:hover{
+	color: red;
+	background-color: white;
+}
+.navigasi ul .home a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 0px;
+}
+.navigasi ul .website a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: -5px;
+}
+.navigasi ul .desktop a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: -5px;
+}
+.navigasi ul .app a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: -5px;
+}
+.navigasi ul .database a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: -5px;
+}
+.navigasi ul .linux a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: -5px;
+}
+.navigasi ul .network a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: -5px;
+}
+.navigasi ul .software a{
+	background-color: ;
+	border-right: 1px solid red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: -5px;
+}
+.navigasi ul li:hover ul {
+	display:block;
+}
+ 
+.navigasi ul ul {
+	display:none; 
+	list-style:none; 
+	position:absolute; 
+	left:130px; 
+	top:365px; 
+	width:150px;
+	border: 1px solid red;
+}
+.navigasi ul ul li{
+	border-right: none;
+}
+.navigasi ul ul li a{
+	float:none; 
+	display:block; 
+	padding-left:0px; 
+	text-align:left; 
+	width:170px;
+	color: green;
+}
+.navigasi .subwebsite{
+	position: absolute;
+	background-color: white;
+	top: 355px;
+	border:none;
+	margin-top: 
+	height : 20px;
+	left: 132px;
+}
+.navigasi .subwebsite li{
+	margin-top: 0px;
+	border: 1px solid red;
+	padding-top: 5px;
+	width: 150px;
+	height: 30px;
+
+}
+.navigasi .subwebsite li a{
+	font-size: 20px;
+	color: red;
+	margin-top: -10px;
+	border-right: none;
+	padding-top: 12px;
+}
+.navigasi .subwebsite li a:hover{
+	color: red;
+	width: 120px;
+	height: 20px;
+	background-color: green;
+	margin-left: 0px;
+	margin-top: -5px;
+	padding-top: 0px;
+	text-align: left;
+	padding-top: 8px;
+}
+.navigasi .subdesktop{
+	position: absolute;
+	background-color: white;
+	top: 355px;
+	left: 251px;
+	border:none;
+	margin-top: 
+	height : 20px;
+	width: 170px;
+}
+.navigasi .subdesktop li{
+	margin-top: 0px;
+	border: 1px solid red;
+	padding-top: 5px;
+	width: 170px;
+	height: 30px;
+
+}
+.navigasi .subdesktop li a{
+	font-size: 20px;
+	color: red;
+	margin-top: -10px;
+	border-right: none;
+	padding-top: 12px;
+}
+.navigasi .subdesktop li a:hover{
+	color: red;
+	width: 139px;
+	height: 20px;
+	background-color: green;
+	margin-left: 0px;
+	margin-top: -5px;
+	padding-top: 0px;
+	text-align: left;
+	padding-top: 8px;
+}
+.navigasi .subapp{
+	position: absolute;
+	background-color: white;
+	top: 355px;
+	left: 373px;
+	border:none;
+	margin-top: 
+	height : 20px;
+	width: 200px;
+}
+.navigasi .subapp li{
+	margin-top: 0px;
+	border: 1px solid red;
+	padding-top: 5px;
+	width: 200px;
+	height: 30px;
+
+}
+.navigasi .subapp li a{
+	font-size: 20px;
+	color: red;
+	margin-top: -10px;
+	border-right: none;
+	padding-top: 12px;
+}
+.navigasi .subapp li a:hover{
+	color: red;
+	width: 170px;
+	height: 20px;
+	background-color: green;
+	margin-left: 0px;
+	margin-top: -5px;
+	padding-top: 0px;
+	text-align: left;
+	padding-top: 8px;
+}
+.navigasi .subdatabase{
+	position: absolute;
+	background-color: white;
+	top: 355px;
+	left: 448px;
+	border:none;
+	margin-top: 
+	height : 20px;
+	width: 170px;
+}
+.navigasi .subdatabase li{
+	margin-top: 0px;
+	border: 1px solid red;
+	padding-top: 5px;
+	width: 170px;
+	height: 30px;
+
+}
+.navigasi .subdatabase li a{
+	font-size: 20px;
+	color: red;
+	margin-top: -10px;
+	border-right: none;
+	padding-top: 12px;
+}
+.navigasi .subdatabase li a:hover{
+	color: red;
+	width: 139px;
+	height: 20px;
+	background-color: green;
+	margin-left: 0px;
+	margin-top: -5px;
+	padding-top: 0px;
+	text-align: left;
+	padding-top: 8px;
+}
+.navigasi .sublinux{
+	position: absolute;
+	background-color: white;
+	top: 355px;
+	left: 582px;
+	border:none;
+	margin-top: 
+	height : 20px;
+	width: 170px;
+}
+.navigasi .sublinux li{
+	margin-top: 0px;
+	border: 1px solid red;
+	padding-top: 5px;
+	width: 170px;
+	height: 30px;
+
+}
+.navigasi .sublinux li a{
+	font-size: 20px;
+	color: red;
+	margin-top: -10px;
+	border-right: none;
+	padding-top: 12px;
+}
+.navigasi .sublinux li a:hover{
+	color: red;
+	width: 139px;
+	height: 20px;
+	background-color: green;
+	margin-left: 0px;
+	margin-top: -5px;
+	padding-top: 0px;
+	text-align: left;
+	padding-top: 8px;
+}
+.menu{
+	position: static;
+	border: 1px solid red;
+	width: 250px;
+	height: 300px;
+	margin-left: 5px;
+	border-radius: 10px;
+	margin-top: 0px;
+}
+.menu2{
+	position: static;
+	border: 1px solid red;
+	width: 250px;
+	height: 300px;
+	margin-left: 1093px;
+	margin-top: -304px;
+	border-radius: 10px;
+}
+.content{
+	position: static;
+	border: 1px solid red;
+	width: 826px;
+	height: 500px;	
+	margin-left: 261px;
+	margin-top: -300px;
+
+}
+.content {
+	font-size:  20px;
+	color: white
+}
+.footer{
+	margin-top: 5px;
+	border: 1px solid red;
+	width: 100%;
+	height: 50px;	
+}
